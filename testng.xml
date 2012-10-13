@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CG1_Math" parallel="methods">
+  <test name="Test">
+    <classes>
+      <class name="test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest"/>
+      <class name="test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest"/>
+      <class name="test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest"/>
+      <class name="test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest"/>
+      <class name="test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest"/>
+      <class name="test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CG1_Math -->

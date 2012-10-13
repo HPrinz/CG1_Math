@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">52</td><td class="numi">52</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m1"><b>testAdd</b>  </a></td><td class="numi">1</td><td>1350133773806</td><td class="numi">4</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m2"><b>testAdd</b>  </a></td><td class="numi">1</td><td>1350133773825</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="3">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m3"><b>testAddNormal</b>  </a></td><td class="numi">1</td><td>1350133773779</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m4"><b>testAddVector3D</b>  </a></td><td class="numi">1</td><td>1350133773778</td><td class="numi">17</td></tr><tr class="passedodd"><td><a href="#m5"><b>testAsNormal</b>  </a></td><td class="numi">1</td><td>1350133773778</td><td class="numi">17</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m6"><b>testAsNormal</b>  </a></td><td class="numi">1</td><td>1350133773825</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m7"><b>testAsPoint</b>  </a></td><td class="numi">1</td><td>1350133773778</td><td class="numi">17</td></tr>
+<tr class="passedeven"><td rowspan="2">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m8"><b>testAsPoint</b>  </a></td><td class="numi">1</td><td>1350133773809</td><td class="numi">15</td></tr><tr class="passedeven"><td><a href="#m9"><b>testAsVector</b>  </a></td><td class="numi">1</td><td>1350133773807</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m10"><b>testAsVector</b>  </a></td><td class="numi">1</td><td>1350133773826</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest</td><td><a href="#m11"><b>testAt</b>  </a></td><td class="numi">1</td><td>1350133773804</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="2">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m12"><b>testCross</b>  </a></td><td class="numi">1</td><td>1350133773778</td><td class="numi">17</td></tr><tr class="passedodd"><td><a href="#m13"><b>testDiv</b>  </a></td><td class="numi">1</td><td>1350133773800</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m14"><b>testDot</b>  </a></td><td class="numi">1</td><td>1350133773826</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="2">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m15"><b>testDotNormal</b>  </a></td><td class="numi">1</td><td>1350133773800</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m16"><b>testDotVector3D</b>  </a></td><td class="numi">1</td><td>1350133773801</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest</td><td><a href="#m17"><b>testGetDeterminant</b>  </a></td><td class="numi">1</td><td>1350133773829</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest</td><td><a href="#m18"><b>testGetDirection</b>  </a></td><td class="numi">1</td><td>1350133773805</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m19"><b>testGetMagnitude</b>  </a></td><td class="numi">1</td><td>1350133773801</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest</td><td><a href="#m20"><b>testGetOrigin</b>  </a></td><td class="numi">1</td><td>1350133773805</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m21"><b>testGetX</b>  </a></td><td class="numi">1</td><td>1350133773801</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m22"><b>testGetX</b>  </a></td><td class="numi">1</td><td>1350133773808</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m23"><b>testGetX</b>  </a></td><td class="numi">1</td><td>1350133773827</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest</td><td><a href="#m24"><b>testGetX</b>  </a></td><td class="numi">1</td><td>1350133773834</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m25"><b>testGetY</b>  </a></td><td class="numi">1</td><td>1350133773802</td><td class="numi">5</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m26"><b>testGetY</b>  </a></td><td class="numi">1</td><td>1350133773808</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m27"><b>testGetY</b>  </a></td><td class="numi">1</td><td>1350133773826</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest</td><td><a href="#m28"><b>testGetY</b>  </a></td><td class="numi">1</td><td>1350133773834</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m29"><b>testGetZ</b>  </a></td><td class="numi">1</td><td>1350133773802</td><td class="numi">4</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m30"><b>testGetZ</b>  </a></td><td class="numi">1</td><td>1350133773809</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m31"><b>testGetZ</b>  </a></td><td class="numi">1</td><td>1350133773827</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest</td><td><a href="#m32"><b>testMat3x3Impl</b>  </a></td><td class="numi">1</td><td>1350133773829</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m33"><b>testMul</b>  </a></td><td class="numi">1</td><td>1350133773803</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m34"><b>testMul</b>  </a></td><td class="numi">1</td><td>1350133773809</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="3">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest</td><td><a href="#m35"><b>testMulMat3x3</b>  </a></td><td class="numi">1</td><td>1350133773829</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m36"><b>testMulPoint3D</b>  </a></td><td class="numi">1</td><td>1350133773830</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m37"><b>testMulVector3D</b>  </a></td><td class="numi">1</td><td>1350133773830</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m38"><b>testNormalImpl</b>  </a></td><td class="numi">1</td><td>1350133773810</td><td class="numi">13</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m39"><b>testNormalized</b>  </a></td><td class="numi">1</td><td>1350133773803</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m40"><b>testNormalized</b>  </a></td><td class="numi">1</td><td>1350133773824</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest</td><td><a href="#m41"><b>testPoint2DImpl</b>  </a></td><td class="numi">1</td><td>1350133773834</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m42"><b>testPoint3DImpl</b>  </a></td><td class="numi">1</td><td>1350133773827</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest</td><td><a href="#m43"><b>testRayImpl</b>  </a></td><td class="numi">1</td><td>1350133773806</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest</td><td><a href="#m44"><b>testReflect</b>  </a></td><td class="numi">1</td><td>1350133773825</td><td class="numi">8</td></tr>
+<tr class="passedeven"><td rowspan="3">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest</td><td><a href="#m45"><b>testReplaceColumn0</b>  </a></td><td class="numi">1</td><td>1350133773830</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m46"><b>testReplaceColumn1</b>  </a></td><td class="numi">1</td><td>1350133773832</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m47"><b>testReplaceColumn2</b>  </a></td><td class="numi">1</td><td>1350133773832</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m48"><b>testSub</b>  </a></td><td class="numi">1</td><td>1350133773803</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="2">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest</td><td><a href="#m49"><b>testSubPoint3D</b>  </a></td><td class="numi">1</td><td>1350133773828</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m50"><b>testSubVector3D</b>  </a></td><td class="numi">1</td><td>1350133773828</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest</td><td><a href="#m51"><b>testTOf</b>  </a></td><td class="numi">1</td><td>1350133773806</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest</td><td><a href="#m52"><b>testVector3DImpl</b>  </a></td><td class="numi">1</td><td>1350133773803</td><td class="numi">1</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testGetY</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testDot</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testReflect</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testGetDeterminant</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest:testAt</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testGetZ</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testSubPoint3D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testNormalImpl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testAsNormal</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testMul</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testGetZ</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testCross</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testAsVector</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testGetY</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest:testGetX</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest:testGetOrigin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testReplaceColumn0</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testMulVector3D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testAsNormal</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testGetX</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testNormalized</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testNormalized</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testSubVector3D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testGetZ</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testDotNormal</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testMulPoint3D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testAsPoint</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testMat3x3Impl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testGetX</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testReplaceColumn1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testMul</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testMulMat3x3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest:testRayImpl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">test.java.de.bht.fb6.cg1.raytracer.math.Mat3x3ImplTest:testReplaceColumn2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testAdd</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testDotVector3D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testAddNormal</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testAsVector</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">test.java.de.bht.fb6.cg1.raytracer.math.Point3DImplTest:testPoint3DImpl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest:testGetY</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest:testTOf</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testAdd</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testGetX</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testDiv</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">test.java.de.bht.fb6.cg1.raytracer.math.NormalImplTest:testAsPoint</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testGetY</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testGetMagnitude</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">test.java.de.bht.fb6.cg1.raytracer.math.Point2DImplTest:testPoint2DImpl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testSub</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testAddVector3D</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">test.java.de.bht.fb6.cg1.raytracer.math.RayImplTest:testGetDirection</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">test.java.de.bht.fb6.cg1.raytracer.math.Vector3DImplTest:testVector3DImpl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
