@@ -6,11 +6,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Studium/18_Computergrafik/Übung3/de.bht.fb6.cg1.raytracer.math.jar" sourcepath="D:/Studium/18_Computergrafik/Übung3/de.bht.fb6.cg1.raytracer.math-src.jar"/>
+	<classpathentry kind="lib" path="testng.jar"/>
+	<classpathentry kind="lib" path="slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="junit.jar"/>
+	<classpathentry kind="lib" path="org.hamcrest.core_1.1.0.v20090501071000.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Studium/25_Software_Engineering_2/slf4j-1.7.2/slf4j-simple-1.7.2.jar"/>
-	<classpathentry kind="lib" path="D:/Studium/25_Software_Engineering_2/slf4j-1.7.2/slf4j-api-1.7.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
