@@ -6,11 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="testng.jar"/>
-	<classpathentry kind="lib" path="slf4j-api-1.7.2.jar"/>
-	<classpathentry kind="lib" path="slf4j-simple-1.7.2.jar"/>
-	<classpathentry kind="lib" path="junit.jar"/>
-	<classpathentry kind="lib" path="org.hamcrest.core_1.1.0.v20090501071000.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
@@ -22,5 +17,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/testng.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
