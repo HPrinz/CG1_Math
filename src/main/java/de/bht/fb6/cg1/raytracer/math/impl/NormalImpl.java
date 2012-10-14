@@ -41,6 +41,7 @@ public class NormalImpl implements Normal {
     this.x = x;
     this.y = y;
     this.z = z;
+    // test
   }
 
   @Override
