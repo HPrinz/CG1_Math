@@ -40,12 +40,10 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -107,15 +105,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<repositories>
-	<repository>
-			<id>jUnit repo</id>
-			<name>The Release JUnit maven repo</name>
-			<url>http://repository.jboss.org/maven2</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository>
-	</repositories>
-
 </project>

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package test.java.de.bht.fb6.cg1.raytracer.math;
 
 import main.java.de.bht.fb6.cg1.raytracer.math.Mat3x3;
@@ -34,7 +31,8 @@ public class Mat3x3ImplTest {
 
   /**
    * Test method for
-   * {@link main.java.de.bht.fb6.cg1.raytracer.math.impl.Mat3x3Impl#getDeterminant()}.
+   * {@link main.java.de.bht.fb6.cg1.raytracer.math.impl.Mat3x3Impl#getDeterminant()}
+   * .
    */
   @Test
   public void testGetDeterminant() {
