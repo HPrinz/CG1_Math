@@ -119,9 +119,9 @@ public class Mat3x3Impl implements Mat3x3 {
 
 	@Override
 	public Mat3x3 replaceColumn0(final Vector3D newCol0) {
-		System.out.println("" + newCol0.getX() + " " + newCol0.getY() + " " + newCol0.getZ() + " ");
-		System.out.println("" + this.col1.getX() + " " + this.col1.getY() + " " + this.col1.getZ() + " ");
-		System.out.println("" + this.col2.getX() + " " + this.col2.getY() + " " + this.col2.getZ() + " ");
+//		System.out.println("" + newCol0.getX() + " " + newCol0.getY() + " " + newCol0.getZ() + " ");
+//		System.out.println("" + this.col1.getX() + " " + this.col1.getY() + " " + this.col1.getZ() + " ");
+//		System.out.println("" + this.col2.getX() + " " + this.col2.getY() + " " + this.col2.getZ() + " ");
 		return new Mat3x3Impl(newCol0, this.col1, this.col2);
 	}
 

@@ -80,7 +80,7 @@ public class NormalImplTest {
 	public void testReflect() {
 		Normal n4 = new NormalImpl(1, 1, 1);
 		Vector3D actual = n4.reflect(new Vector3DImpl(1, 2, 3));
-	    System.out.println("Vector: " + actual.getX() +" " + actual.getY() + " "+ actual.getZ());
+//	    System.out.println("Vector: " + actual.getX() +" " + actual.getY() + " "+ actual.getZ());
 	}
 
 }
