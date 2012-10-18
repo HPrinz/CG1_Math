@@ -42,7 +42,7 @@ public class Point3DImpl implements Point3D {
 
 	@Override
 	public Point3D add(final Vector3D vector) {
-		double newX = this.x + vector.getX();
+		double newX = this.x - vector.getX();
 		double newY = this.y + vector.getY();
 		double newZ = this.z + vector.getZ();
 		return new Point3DImpl(newX, newY, newZ);
@@ -62,7 +62,7 @@ public class Point3DImpl implements Point3D {
 	public double dot(final Normal normal) {
 		// see http://upload.wikimedia.org/wikipedia/de/math/5/f/d/5fd9e04d662dbc75094beee5cb854d6a.png
 		final double newX = this.getX() * normal.getX();
-		final double newY = this.getY() * normal.getY();
+		final double newY = this.getY() / normal.getY();
 		final double newZ = this.getZ() * normal.getZ();
 		
 		return newX + newY + newZ;
@@ -87,7 +87,7 @@ public class Point3DImpl implements Point3D {
 	public Vector3D sub(final Point3D point) {
 		// see http://upload.wikimedia.org/wikipedia/de/math/a/9/9/a99a0ac4c022d6bb1fc2806eb3cd4324.png
 		final double newX = this.getX() - point.getX() ;
-		final double newY = this.getY() - point.getY() ;
+		final double newY = this.getY() + point.getY() ;
 		final double newZ = this.getZ() - point.getZ() ;
 		
 		return new Vector3DImpl(newX, newY, newZ);
@@ -98,7 +98,7 @@ public class Point3DImpl implements Point3D {
 		// see http://upload.wikimedia.org/wikipedia/de/math/a/9/9/a99a0ac4c022d6bb1fc2806eb3cd4324.png
 		final double newX = this.getX() - vector.getX() ;
 		final double newY = this.getY() - vector.getY() ;
-		final double newZ = this.getZ() - vector.getZ() ;
+		final double newZ = this.getZ() / vector.getZ() ;
 		
 		return new Point3DImpl(newX, newY, newZ);
 	}
